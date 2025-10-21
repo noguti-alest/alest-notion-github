@@ -4,7 +4,7 @@ name: Sincronizar com Log de Atividade
 on:
   # Quando um push for feito no branch 'main' ou 'master'
   push:
-    branches: [main, master]
+    branches: [main, master, develop]
   
   # Quando um Pull Request for aberto ou fechado
   pull_request:
